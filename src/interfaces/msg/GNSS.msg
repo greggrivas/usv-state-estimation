@@ -1,0 +1,9 @@
+bool    sensor_enabled
+bool    sensor_healthy
+float64 latitude
+float64 longitude
+float64 z
+bool    signal_valid
+float64 sog
+float64 cog
+bool    sogcog_signal_valid

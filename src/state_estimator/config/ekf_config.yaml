@@ -1,0 +1,18 @@
+state_estimator:
+  use_adaptive_qr: true
+
+  ekf:
+    process_noise:
+      north: 0.01
+      east: 0.01
+      heading: 0.00001
+      surge_vel: 0.1
+      sway_vel: 0.1
+      yaw_rate: 0.01
+    measurement_noise:
+      north: 0.0001
+      east: 0.0001
+      heading: 0.0000762
+      surge_vel: 1.0
+      sway_vel: 1.0
+      yaw_rate: 0.0000021
